@@ -73,7 +73,7 @@ Reminder: This is a basic CRUD, no need to create student section or year. Let s
   </code>
 </pre>
 
-4. Go to file **Save As** and save the file with **Filename** `.env` and **Save as type** `All types`
+4. Go to file **Save As** and save the file with **Filename** `.env` and **Save as type** `All files`
 ![Screenshot 2022-12-24 124742](https://user-images.githubusercontent.com/47745897/209421862-4383f9cf-a4aa-41ca-a437-66debc32474a.png)
 
 ### Installing and Running NPM
@@ -86,7 +86,7 @@ Reminder: This is a basic CRUD, no need to create student section or year. Let s
 This project uses sqlite as its database.
 1. Open **Notepad**
 2. Click **File** and **Save As**
-3. Save it with a **File name** `database.sqlite` and **Save as type** `All types`, inside the `database` folder of the project
+3. Save it with a **File name** `database.sqlite` and **Save as type** `All files`, inside the `database` folder of the project
 ![image](https://user-images.githubusercontent.com/47745897/209422266-c111d459-6bc3-4f50-adad-9f8c4a806fb8.png)
 
 ### Migrating Database
