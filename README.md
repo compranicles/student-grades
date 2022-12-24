@@ -54,16 +54,25 @@ Reminder: This is a basic CRUD, no need to create student section or year. Let s
 ### Configuring ENV file
 1. From the `root` directory, open the .env.example using Notepad or any similar text editor.
 2. Find the following lines from the file:
-`DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=`
+<pre>
+  <code>
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
+  </code>
+</pre>
 3. Replace those lines with these lines:
-`DB_CONNECTION=sqlite
-DB_HOST=127.0.0.1
-DB_PORT=3306`
+<pre>
+  <code>
+    DB_CONNECTION=sqlite
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+  </code>
+</pre>
+
 4. Go to file **Save As** and save the file with **Filename** `.env` and **Save as type** `All types`
 ![Screenshot 2022-12-24 124742](https://user-images.githubusercontent.com/47745897/209421862-4383f9cf-a4aa-41ca-a437-66debc32474a.png)
 
